@@ -1,0 +1,36 @@
+Explain the Java Execution Pipeline    [Code Reading | Beginner]
+Given the words source code, compiler, bytecode, JVM, operating system and output, place them in execution 
+order and write one responsibility for each. Then add JDK and JRE to the diagram.
+Done when: The explanation correctly distinguishes development tools from the runtime and does not claim 
+bytecode is machine code for one operating system.
+
+
+source code (.java)
+     │
+     │      JDK (Java Development Kit)
+     ▼
+compiler
+     │
+     │
+     ▼
+bytecode (.class)
+     │
+     │      JRE (Java Runtime Environment)
+     ▼
+JVM
+     │
+     │
+     ▼
+Operating System
+     │
+     │
+     ▼
+Output
+
+
+source code(.java) - main java code
+compiler - convert java code into byte code
+bytecode(.class) - suitable form of code for JVM
+JVM - execute bytecode
+Operating System - deliver system resources to JVM
+Output - the result

@@ -1,0 +1,13 @@
+/*
+Which Loop and Why?   [Code Reading | Beginner]
+For six scenarios—known number of invoices, unknown login attempts, menu shown once, matrix traversal, 
+countdown and input-until-valid—choose while, do-while or for and justify each.
+Done when: Each choice is tied to what is known before the loop starts.
+*/
+
+known numbers --> for loop
+unknown login attempts --> while loop
+menu shown once --> do-while loop
+matrix traversal --> nested for loop
+countdown --> for loop
+input-until-valid --> while loop
