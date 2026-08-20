@@ -1,3 +1,10 @@
+/*
+Conversion Utility Suite   [Build from Scratch | Intermediate]
+Create overloaded or separately named methods for Celsius/Fahrenheit, kilometers/miles and 
+kilograms/pounds. Choose overloading only when the call remains understandable.
+Done when: Round-trip tests and negative/zero cases are recorded. 
+*/
+
 class UnitConvertion {
     public void celsiusToFahrenheit(double celsius) {
         System.out.println("The Fahrenheit Value: " + (9 / 5 * celsius) + 32); 
