@@ -17,7 +17,7 @@ public class Ex68gradeStatistics {
         for (int mark : marks) {
             sum += mark;
 
-            if (mark > passMarks) {
+            if (mark >= passMarks) {
                 passCount++;
             } else
                 failCount++;
