@@ -31,9 +31,24 @@ public class Ex80studentResultsObjectArray {
         students[2] = new Student("Radoan", 4, 90, "");
         students[3] = new Student("Abdullah", 7, 30, "");
 
+        
+        int countPass = 0;
+        int countFail = 0;
+        int total = 0;
+        
         for (Student s : students) {
             s.status = s.marks >= 33 ? "Pass" : "Fail";
             s.result();
+            if (s.marks >= 33)
+                countPass++;
+            else
+                countFail++;
+
+            total += s.marks;
         }
+        double average = (double)total / students.length;
+        System.out.println("Pass: " + countPass);
+        System.out.println("Fail: " + countFail);
+        System.out.println("Calss Average: " + average);
     }
 }
