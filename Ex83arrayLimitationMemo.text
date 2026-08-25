@@ -19,4 +19,4 @@ useful.
 
 Limitation vs. incapability: These limitations don't mean it's impossible to work with arrays — with a bit of extra code 
   (creating a new array, manual shifting) these problems can be solved. But this extra complexity is exactly why, later on (Level 10), 
-  you need a collection like ArrayList, which handles these tasks on its own.
+  you need a collection like ArrayList, which handles these tasks on its own. 
