@@ -6,10 +6,17 @@ Done when: The note distinguishes limitations from outright inability and antici
 useful.
 */
 
-1. Fixed size: Once you create new Product[10], its size cannot be changed. Suppose a shop's inventory is set up with space for 10 products, but when the 11th product arrives, you have to create a new, larger array and copy all the old data into it — this is inefficient and error-prone.
+1. Fixed size: Once you create new Product[10], its size cannot be changed. Suppose a shop's inventory is set up with space for 
+   10 products, but when the 11th product arrives, you have to create a new, larger array and copy all the old data into it — 
+   this is inefficient and error-prone.
 
-2. Difficulty with insertion/removal: If you need to delete a product from the middle (say, the product at index 3 is sold out), all the elements after it must be shifted one position to the left; otherwise an empty/null slot remains, which can confuse the rest of the code. This is a manual and error-prone process.
+2. Difficulty with insertion/removal: If you need to delete a product from the middle (say, the product at index 3 is sold out), 
+   all the elements after it must be shifted one position to the left; otherwise an empty/null slot remains, which can confuse the 
+   rest of the code. This is a manual and error-prone process.
 
-3. Homogeneous element type: A Product[] can only hold objects of type Product — you can't mix Employee or Customer into the same array. In real inventories, if you need different types of records in one place, arrays don't directly support that.
+3. Homogeneous element type: A Product[] can only hold objects of type Product — you can't mix Employee or Customer into the same array. 
+   In real inventories, if you need different types of records in one place, arrays don't directly support that.
 
-Limitation vs. incapability: These limitations don't mean it's impossible to work with arrays — with a bit of extra code (creating a new array, manual shifting) these problems can be solved. But this extra complexity is exactly why, later on (Level 10), you need a collection like ArrayList, which handles these tasks on its own.
+Limitation vs. incapability: These limitations don't mean it's impossible to work with arrays — with a bit of extra code 
+  (creating a new array, manual shifting) these problems can be solved. But this extra complexity is exactly why, later on (Level 10), 
+  you need a collection like ArrayList, which handles these tasks on its own.
