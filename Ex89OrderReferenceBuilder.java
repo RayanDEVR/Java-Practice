@@ -5,7 +5,7 @@ clearer version using StringBuilder append calls.
 Done when: Both outputs match and the trade-off is explained without unsupported performance claims.
 */
 
-public class Ex89orderReferenceBuilder {
+public class Ex89OrderReferenceBuilder {
     public static void main(String[] args) {
         String prefix = "ORD";
         int id = 1042;
