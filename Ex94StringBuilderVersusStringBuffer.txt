@@ -1,0 +1,16 @@
+/*
+StringBuilder Versus StringBuffer   [Code Reading | Intermediate]
+Write a comparison based only on mutability and the thread-safety distinction introduced by the course. Choose 
+one for a single-threaded receipt and justify it.
+Done when: The decision is contextual and does not claim String is mutable.
+*/
+
+
+
+    topic       |   StringBuilder    |  StringBuffer
+----------------|--------------------|---------------------
+Mutability      |   Mutable          |  Mutable
+Thread-safety   |   Not synchronized |  Synchronized
+Used in         |   Single-thread    |  Multi-thread
+Speed           |   Fast             |  Comparatively slow
+                |                    |
