@@ -11,7 +11,6 @@ public class Ex42cinemaSeatMap {
                 System.out.print(rows + "" + seat + " ");
                 
             System.out.println();
-        }
-           
+        }     
     }
 }
