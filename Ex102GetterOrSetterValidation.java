@@ -29,5 +29,5 @@ public class Ex102GetterOrSetterValidation {
         s1.result();
         s2.result();
         s3.result();
-    }
+    } 
 }
