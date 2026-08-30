@@ -14,8 +14,7 @@ class Student {
         this.mark = mark;
     }
 
-    public void result()
-    {
+    public void result() {
         System.out.println(name + ": " + mark);
     }
 }
