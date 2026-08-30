@@ -6,7 +6,7 @@ before running.
 Done when: The explanation distinguishes object identity from content equality.
 */
 
-public class Ex86stringPoolReferenceTrace {
+public class Ex086StringPoolReferenceTrace {
     public static void main(String[] args) {
         String a = "hello";
         String b = "hello";

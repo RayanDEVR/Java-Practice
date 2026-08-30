@@ -23,7 +23,7 @@ class Product {
     
 }
 
-public class Ex98ProductLabelRefactor {
+public class Ex098ProductLabelRefactor {
     public static void main(String[] args) {
         Product p1 = new Product(101, "SmartPhone", 100);
         Product p2 = new Product(102, "Laptop", 1200);

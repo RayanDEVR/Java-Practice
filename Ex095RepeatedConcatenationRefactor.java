@@ -5,7 +5,7 @@ identical.
 Done when: The builder is created once, appended inside the loop and converted/printed at the end.
 */
 
-public class Ex95RepeatedConcatenationRefactor {
+public class Ex095RepeatedConcatenationRefactor {
     public static void main(String[] args) {
         String[] lines = { "Line 1", "Line 2", "Line 3", "Line 4" };
         String report = "";

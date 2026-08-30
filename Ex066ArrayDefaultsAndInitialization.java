@@ -8,7 +8,7 @@ Done when: Predictions are correct and null is recognized as the default for ref
 
 class Item {}
 
-public class Ex66arrayDefaultsAndInitialization {
+public class Ex066ArrayDefaultsAndInitialization {
     public static void main(String[] args) {
         int[] intArr = new int[3];
         double[] doubleArr = new double[3];

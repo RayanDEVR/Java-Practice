@@ -5,7 +5,7 @@ original array.
 Done when: Both arrays are printed and the original remains unchanged.
 */
 
-public class Ex73applyAPriceIncrease {
+public class Ex073ApplyAPriceIncrease {
     public static void main(String[] args) {
         double[] prices = { 1000, 1500, 2000, 1200, 4500 };
         double increaseInPercent = 10;

@@ -18,7 +18,7 @@ class Temperature
     }
 }
 
-public class Ex28temperatureConverter
+public class Ex028temperatureConverter
 {
     public static void main(String[] args) {
         Temperature t = new Temperature();

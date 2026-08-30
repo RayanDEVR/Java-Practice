@@ -31,7 +31,7 @@ class UnitConvertion {
     }
 }
 
-public class Ex64conversionUtilitySuite {
+public class Ex064ConversionUtilitySuite {
     public static void main(String[] args) {
         UnitConvertion unit = new UnitConvertion();
 

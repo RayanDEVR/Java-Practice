@@ -26,7 +26,7 @@ class Mutate{
 }
 
 
-public class Ex52parametersVersusReturnValues {
+public class Ex052ParametersVersusReturnValues {
     public static void main(String[] args) {
         Calculate tax = new Calculate();
         tax.printTax(1200);

@@ -4,7 +4,7 @@ Find the smallest and largest stock quantity in a non-empty array and print thei
 element rather than arbitrary sentinel values. 
 */
 
-public class Ex69stockExtremes {
+public class Ex069StockExtremes {
     public static void main(String[] args) {
         int[] stock = { 20, 30, 50, 13, 60 };
         

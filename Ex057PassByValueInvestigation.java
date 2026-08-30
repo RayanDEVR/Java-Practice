@@ -13,7 +13,7 @@ class Student {
     }
 }
 
-public class Ex57PassByValueInvestigation {
+public class Ex057PassByValueInvestigation {
     public static void main(String[] args) {
 
         Student s = new Student();

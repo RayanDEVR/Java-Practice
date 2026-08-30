@@ -24,7 +24,7 @@ class PayrollService {
     }
 }
 
-public class Ex62payrollServiceFunctions {
+public class Ex062PayrollServiceFunctions {
     public static void main(String[] args) {
         PayrollService pay = new PayrollService();
         

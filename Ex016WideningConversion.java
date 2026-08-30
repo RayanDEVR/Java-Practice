@@ -5,7 +5,7 @@ identify which assignments require no explicit cast.
 Done when: All safe widening assignments compile and the direction of widening is explained.
  */
 
-public class Ex16WideningConversion {
+public class Ex016WideningConversion {
     public static void main(String[] args) {
         byte b = 23;
         short s = b;            //no casting needed

@@ -5,7 +5,7 @@ evaluation order, then add parentheses so the code visibly matches the business 
 Done when: The original and corrected results are shown with a justification for the intended one.
  */
 
-public class Ex22operatorPrecedenceAudit {
+public class Ex022operatorPrecedenceAudit {
     public static void main(String[] args) {
         double sales = 10000;
         double bonus = 500;

@@ -4,7 +4,7 @@ Store seven daily sales values in a double array. Calculate total and average wi
 Done when: The loop uses length, handles zero values and prints a verifiable total.
 */
 
-public class Ex67weeklySalesTotal {
+public class Ex067WeeklySalesTotal {
     public static void main(String[] args) {
         double[] sales = { 1300.50, 1300.25, 1000.50, 1500.75 };
         double total = 0;

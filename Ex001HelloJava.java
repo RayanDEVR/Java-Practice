@@ -6,7 +6,7 @@ Done when: Submit the source, the two terminal commands, and a two-sentence expl
 versus .class.
 */
 
-public class Ex01HelloJava {
+public class Ex001HelloJava {
     public static void main (String [] args)
     {
         System.out.println("Hello World");

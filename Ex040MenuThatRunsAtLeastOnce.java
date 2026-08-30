@@ -5,7 +5,7 @@ Use predetermined choices first; Scanner input comes later.
 Done when: The menu always appears once and exits on the correct choice.
  */
 
-public class Ex40menuThatRunsAtLeastOnce {
+public class Ex040MenuThatRunsAtLeastOnce {
     public static void main(String[] args) {
         int choices[] = { 1, 2, 3, 4 };
         

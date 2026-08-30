@@ -6,7 +6,7 @@ Done when: All blanks are correct and the student can explain public, static, vo
 beginner level
 */
 
-public class Ex05completeTheMainMethod 
+public class Ex005completeTheMainMethod 
 {
     // ____ ____ ____ main(String[] args)
     public static void main(String[] args)

@@ -13,7 +13,7 @@ class Username {
     }
 }
 
-public class Ex87fixLoginStringComparison {
+public class Ex087FixLoginStringComparison {
     public static void main(String[] args) {
         System.out.println("Enter your Username: ");
         Scanner sc = new Scanner(System.in);

@@ -23,7 +23,7 @@ class Product {
     }
 }
 
-public class Ex79productObjectArray {
+public class Ex079ProductObjectArray {
     public static void main(String[] args) {
         Product[] catalogue = new Product[5];
         catalogue[0] = new Product(1001, "Computer", 1500, 50);

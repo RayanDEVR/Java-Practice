@@ -5,7 +5,7 @@ correct by controlling the loop condition rather than introducing untaught flow 
 Done when: The program handles success on attempt 1, 2 or 3 and lockout after three failures.
  */
 
-public class Ex39PINRetryLoop {
+public class Ex039PINRetryLoop {
     public static void main(String[] args) {
         int correctPIN = 1234;
 

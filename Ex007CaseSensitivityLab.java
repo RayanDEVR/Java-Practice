@@ -5,7 +5,7 @@ Println. Predict compile success first, then test each.
 Done when: A table records prediction, actual result and corrected spelling for every case.
 */
 
-public class Ex07CaseSensitivityLab {
+public class Ex007CaseSensitivityLab {
     // public static void Main(String[] args) {         wrong format
     //     string name = "Rayan";
     //     system.out.Println(name);

@@ -5,7 +5,7 @@ thresholds.
 Done when: Every interval is non-overlapping and boundary tests are documented.
  */
 
-public class Ex31accountBalanceClassification {
+public class Ex031accountBalanceClassification {
     public static void main(String[] args) {
         int bankBalance = 1500;
         String type;

@@ -4,7 +4,7 @@ Convert a numeric mark to a letter grade and pass/fail status. Reject marks outs
 Done when: Tests cover invalid values and every exact grade boundary.
  */
 
-public class Ex33universityGradeAndStatus {
+public class Ex033UniversityGradeAndStatus {
     public static void main(String[] args) {
         double marks = 78;
         String grade;

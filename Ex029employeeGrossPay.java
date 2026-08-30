@@ -5,7 +5,7 @@ assume the hours have already been separated.
 Done when: At least three cases are tested, including no overtime and fractional hourly rates.
  */
 
-public class Ex29employeeGrossPay {
+public class Ex029employeeGrossPay {
     public static void main(String[] args) {
          double regularHours = 8;
          double overtimeHours = 4;

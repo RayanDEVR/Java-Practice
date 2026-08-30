@@ -5,7 +5,7 @@ become false. Explain the minimum fix.
 Done when: All loops terminate with the intended number of iterations.
  */
 
-public class Ex44repairAnInfiniteLoop {
+public class Ex044RepairAnInfiniteLoop {
     public static void main(String[] args) {
         for (int i = 1; i < 5; i++)
             System.out.println(i);

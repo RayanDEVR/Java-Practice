@@ -23,7 +23,7 @@ class Student {
     }
 }
 
-public class Ex80studentResultsObjectArray {
+public class Ex080StudentResultsObjectArray {
     public static void main(String[] args) {
         Student[] students = new Student[4];
         students[0] = new Student("Rayan", 1, 80, "");

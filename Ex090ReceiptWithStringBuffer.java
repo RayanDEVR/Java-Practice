@@ -5,7 +5,7 @@ after the text is complete.
 Done when: The final receipt is readable and append operations are correctly chained or sequenced.
 */
 
-public class Ex90ReceiptWithStringBuffer {
+public class Ex090ReceiptWithStringBuffer {
     public static void main(String[] args) {
         StringBuilder receipt = new StringBuilder();
         receipt.append("====Receippt====");

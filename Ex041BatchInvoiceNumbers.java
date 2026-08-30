@@ -4,7 +4,7 @@ Use a for loop to print invoice numbers INV-1001 through INV-1020 and mark every
 Done when: The first/last values and audit frequency are correct.
  */
 
-public class Ex41batchInvoiceNumbers {
+public class Ex041BatchInvoiceNumbers {
     public static void main(String[] args) {
 
         for (int i = 1001; i<=1020; i++)

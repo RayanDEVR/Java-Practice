@@ -4,7 +4,7 @@ Predict 7 / 2, 7 / 2.0, (double) 7 / 2 and (double) (7 / 2). Relate the results 
 Done when: All four values are explained and the average calculation retains the fraction.
  */
 
-public class Ex19integerDivision {
+public class Ex019integerDivision {
     public static void main(String[] args) {
         System.out.println(7/2);                //case 01
         System.out.println(7/2.0);              //case 02

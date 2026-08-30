@@ -14,7 +14,7 @@ class delivery {
     }
 }
 
-public class Ex55overloadedDeliveryFee {
+public class Ex055OverloadedDeliveryFee {
     public static void main(String[] args) {
         delivery info = new delivery();
         double fee = info.distance(50000, "Dhaka", 3);

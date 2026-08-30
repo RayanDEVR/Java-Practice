@@ -10,7 +10,7 @@ class Product {
     public Product(String name) { this.name = name; }
 }
 
-public class Ex81nullSlotFailure {
+public class Ex081NullSlotFailure {
     public static void main(String[] args) {
         System.out.println("--- BUGGY VERSION ---");
         Product[] products = new Product[5];

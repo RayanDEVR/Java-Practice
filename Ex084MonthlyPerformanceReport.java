@@ -5,7 +5,7 @@ index/name using a parallel month-name array only for labels.
 Done when: Results are correct and the revenue data remains in one array.
 */
 
-public class Ex84monthlyPerformanceReport {
+public class Ex084MonthlyPerformanceReport {
     public static void main(String[] args) {
         double[] revenue = { 12000, 15000, 9000, 18000, 21000, 17000, 13000, 16000, 19000, 22000, 14000, 20000 };
         String[] monthNames = { "January", "February", "March", "April", "May", "June", "July", "August", "September",

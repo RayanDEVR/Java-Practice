@@ -5,7 +5,7 @@ condition that checks a denominator before division.
 Done when: No division-by-zero occurs and the explanation identifies the short-circuit point.
  */
 
-public class Ex25shortCircuitSafety {
+public class Ex025shortCircuitSafety {
     public static void main(String[] args) {
         double number = 4;
         double divisor = 0;

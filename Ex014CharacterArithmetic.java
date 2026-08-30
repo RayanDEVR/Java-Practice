@@ -6,7 +6,7 @@ Done when: Predictions match execution and the student distinguishes character r
 strings.
  */
 
-public class Ex14CharacterArithmetic {
+public class Ex014CharacterArithmetic {
     public static void main(String[] args) {
         char c = 'B';
     

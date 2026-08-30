@@ -5,7 +5,7 @@ and members.
 Done when: Traversal never assumes all rows have equal length.
 */
 
-public class Ex76jaggedDepartmentTeams {
+public class Ex076JaggedDepartmentTeams {
     public static void main(String[] args) {
         int[][] departmentTeam = {
                 { 1001, 1002, 1003, 1004 },

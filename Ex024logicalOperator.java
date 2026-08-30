@@ -5,7 +5,7 @@ parentheses that make the intended grouping explicit.
 Done when: The truth table and business expression agree for all relevant combinations.
  */
 
-public class Ex24logicalOperator {
+public class Ex024logicalOperator {
     public static void main(String[] args) {
         
         boolean admin = true;

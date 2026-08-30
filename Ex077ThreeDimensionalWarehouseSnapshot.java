@@ -5,7 +5,7 @@ total stock per warehouse.
 Done when: Coordinate labels and totals correspond to the supplied dimensions.
 */
 
-public class Ex77threeDimensionalWarehouseSnapshot {
+public class Ex077ThreeDimensionalWarehouseSnapshot {
     public static void main(String[] args) {
         int[][][] warehouse = {
                 { { 10, 31 }, { 13, 14 } },

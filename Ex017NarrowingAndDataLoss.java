@@ -6,7 +6,7 @@ Done when: Both predictions and explanations are correct; the student states why
 meaningful value.
  */
 
-public class Ex17NarrowingAndDataLoss {
+public class Ex017NarrowingAndDataLoss {
     public static void main(String[] args) {
         double d = 129.95;
         int i = (int) d;

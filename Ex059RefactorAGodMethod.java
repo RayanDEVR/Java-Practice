@@ -13,7 +13,7 @@ class checkoutService {
     }
 }
 
-public class Ex59RefactorAGodMethod {
+public class Ex059RefactorAGodMethod {
     public static void main(String[] args) {
         checkoutService a = new checkoutService();
         a.checkout(22, 0, 0, 0);

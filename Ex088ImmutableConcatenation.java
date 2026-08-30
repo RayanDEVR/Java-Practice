@@ -5,7 +5,7 @@ Explain what immutability means and does not mean.
 Done when: The original object is not described as internally modified.
 */
 
-public class Ex88immutableConcatenation {
+public class Ex088ImmutableConcatenation {
     public static void main(String[] args) {
         String a = "Hello";
         System.out.println(a);          //Hello

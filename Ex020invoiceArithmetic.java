@@ -5,7 +5,7 @@ Print each intermediate amount.
 Done when: The formulas are correct and test cases include quantity 0, tax 0 and a normal order.
  */
 
-public class Ex20invoiceArithmetic {
+public class Ex020invoiceArithmetic {
     public static void main(String[] args) {
         int quantity = 5;
         double unitPrice = 200;

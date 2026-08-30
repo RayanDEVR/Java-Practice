@@ -5,7 +5,7 @@ unless it is intentionally explained.
 Done when: Each case produces exactly one expected result.
  */
 
-public class Ex37traditionalSwitch
+public class Ex037TraditionalSwitch
 {
     public static void main(String[] args) {
         int option = 3;

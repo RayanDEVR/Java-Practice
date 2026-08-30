@@ -7,7 +7,7 @@ clearer business form.
  */
 
 
-public class Ex21compoundAssignmentAndIncrement {
+public class Ex021compoundAssignmentAndIncrement {
     public static void main(String[] args) {
         
         int stock = 100;

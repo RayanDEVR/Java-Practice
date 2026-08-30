@@ -11,7 +11,7 @@ class Student {
    }
 }
 
-public class Ex08CompilerError {
+public class Ex008CompilerError {
     public static void main(String[] args) {
         Student s = new Student();
         s.show("Rayan", 10);

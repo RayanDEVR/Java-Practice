@@ -5,7 +5,7 @@ in output expressions.
 Done when: Prediction is accurate and refactored output is identical.
  */
 
-public class Ex45PrefixOrPostfixLoopTrace {
+public class Ex045PrefixOrPostfixLoopTrace {
     public static void main(String[] args) {
         for (int i = 1; i <= 5;)
         {

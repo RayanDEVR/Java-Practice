@@ -21,7 +21,7 @@ class receiptPrinter {
     }
 }
 
-public class Ex54overloadedReceiptPrinter {
+public class Ex054OverloadedReceiptPrinter {
     public static void main(String[] args) {
         receiptPrinter a = new receiptPrinter();
 

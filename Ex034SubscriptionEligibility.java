@@ -5,7 +5,7 @@ Premium requires an additional income rule. Encode and explain the logic.
 Done when: The program prints the exact failed requirements instead of only true/false.
  */
 
-public class Ex34subscriptionEligibility {
+public class Ex034SubscriptionEligibility {
     public static void main(String[] args) {
         int age = 22;
         boolean accountActive = true;

@@ -6,7 +6,7 @@ Done when: At least six truth combinations are tested and the final condition ma
  */
 
 
-public class Ex15BooleanRuleFlag {
+public class Ex015BooleanRuleFlag {
     public static void main(String[] args) {
         boolean emailVerified = true;
         boolean accountActive = false;

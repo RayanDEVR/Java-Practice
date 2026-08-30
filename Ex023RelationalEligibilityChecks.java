@@ -5,7 +5,7 @@ scoreWithinRange using relational operators.
 Done when: Boundary values immediately below, at and above each threshold are tested.
  */
 
-public class Ex23RelationalEligibilityChecks {
+public class Ex023RelationalEligibilityChecks {
     public static void main(String[] args) {
     
         int age = 20;

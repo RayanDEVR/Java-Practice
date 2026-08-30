@@ -22,7 +22,7 @@ class boundaryValidator {
         return isAgeValid(age) && isMarkValid(mark);       
     }
 }
-public class Ex60reusableBoundaryMethods {
+public class Ex060ReusableBoundaryMethods {
     public static void main(String[] args) {
         boundaryValidator id = new boundaryValidator();
 

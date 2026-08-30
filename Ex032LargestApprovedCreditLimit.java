@@ -5,7 +5,7 @@ or library max methods.
 Done when: All ordering and tie arrangements are tested.
  */
 
-public class Ex32largestApprovedCreditLimit {
+public class Ex032LargestApprovedCreditLimit {
     public static void main(String[] args) {
         int a = 50000;
         int b = 80000;

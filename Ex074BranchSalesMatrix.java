@@ -5,7 +5,7 @@ and the grand total.
 Done when: All totals reconcile; loops use actual row/column lengths.
 */
 
-public class Ex74branchSalesMatrix {
+public class Ex074BranchSalesMatrix {
     public static void main(String[] args) {
         double[][]	sales =	{
         {1000,	1200,	900},		//	Branch	0

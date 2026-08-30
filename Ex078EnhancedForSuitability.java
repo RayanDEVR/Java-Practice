@@ -5,7 +5,7 @@ reporting, and explain the difference.
 Done when: The student uses enhanced for intentionally, not mechanically.
 */
 
-public class Ex78enhancedForSuitability {
+public class Ex078EnhancedForSuitability {
     public static void main(String[] args) {
         double[] prices = { 100, 200, 300, 150 };
 

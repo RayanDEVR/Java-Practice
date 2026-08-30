@@ -23,7 +23,7 @@ class Info {
     }
 }
 
-public class Ex09ConsoleProfileCard {
+public class Ex009ConsoleProfileCard {
     public static void main(String[] args) {
         Info em1 = new Info();
         em1.id = "EMP101";

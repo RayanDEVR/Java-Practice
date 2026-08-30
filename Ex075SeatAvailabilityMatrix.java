@@ -24,7 +24,7 @@ class Seat {
     }
 }
 
-public class Ex75seatAvailabilityMatrix {
+public class Ex075SeatAvailabilityMatrix {
     public static void main(String[] args) {
         boolean[][] seat = {
                 { false, false, true },

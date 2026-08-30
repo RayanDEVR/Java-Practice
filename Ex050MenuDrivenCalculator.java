@@ -5,7 +5,7 @@ normal condition; formal exceptions come later.
 Done when: All operations work, invalid options are reported and the loop exits cleanly.
  */
 
-public class Ex50menuDrivenCalculator {
+public class Ex050MenuDrivenCalculator {
     public static void main(String[] args) {
         double a = 2;
         double b = 0;

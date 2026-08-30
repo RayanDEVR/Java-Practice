@@ -5,7 +5,7 @@ next level; here focus on correct types and formulas.
 Done when: The per-person result remains fractional and all intermediate values are visible.
  */
 
-public class Ex30sharedRestaurantBill {
+public class Ex030sharedRestaurantBill {
     public static void main(String[] args) {
         int guests = 5;
         double subtotal = 2000;

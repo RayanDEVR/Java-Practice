@@ -5,7 +5,7 @@ the problem and fix it by choosing appropriate types and operand placement.
 Done when: The corrected total is exact, and the explanation identifies when overflow occurs in the expression.
  */
 
-public class Ex18integerOverflow {
+public class Ex018integerOverflow {
     public static void main(String[] args) {
         int priceInCents = 20000;
         int quantity = 300000;

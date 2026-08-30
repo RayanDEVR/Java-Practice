@@ -4,7 +4,7 @@ Given an int[] of marks, calculate count, sum, average, pass count and fail coun
 Done when: Boundary marks are handled correctly and average uses floating-point division.
 */
 
-public class Ex68gradeStatistics {
+public class Ex068GradeStatistics {
     public static void main(String[] args) {
         int[] marks = { 30, 50, 80, 0, 70, 99 };
         int passMarks = 33;

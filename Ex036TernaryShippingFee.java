@@ -5,7 +5,7 @@ Then state when an if/else would be clearer.
 Done when: Both branches are tested and the ternary remains a simple value choice.
  */
 
-public class Ex36ternaryShippingFee {
+public class Ex036TernaryShippingFee {
     public static void main(String[] args) {
         double orderAmount = 800;
         double shippingFee = orderAmount >= 1000 ? 0 : 150;

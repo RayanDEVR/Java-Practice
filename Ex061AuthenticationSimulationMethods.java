@@ -31,7 +31,7 @@ class check {
     }
 }
 
-public class Ex61authenticationSimulationMethods {
+public class Ex061AuthenticationSimulationMethods {
 
     public static void main(String[] args) {
         check id = new check();

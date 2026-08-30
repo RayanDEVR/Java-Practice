@@ -27,7 +27,7 @@ class Coordinator{
     }
 }
 
-public class Ex65orderSummaryCoordinator {
+public class Ex065OrderSummaryCoordinator {
     public static void main(String[] args) {
         Coordinator odr = new Coordinator();
 

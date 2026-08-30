@@ -5,7 +5,7 @@ bonus. Define precedence so only the intended combination applies.
 Done when: A decision table and tests prove there is no accidental double discount.
  */
 
-public class Ex47tieredDiscountEngine {
+public class Ex047TieredDiscountEngine {
     public static void main(String[] args) {
         double subtotal = 1200;
         String membership = "monthly";

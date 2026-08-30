@@ -5,7 +5,7 @@ last name and a numeric suffix. State assumptions about capitalization rather th
 Done when: The construction is deterministic and handles empty-name assumptions explicitly.
 */
 
-public class Ex91UsernameConstruction {
+public class Ex091UsernameConstruction {
     static String buildUsername(String firstName, String lastName, int suffix) {
         StringBuilder sb = new StringBuilder();
         if (firstName != null && firstName.length() > 0) {

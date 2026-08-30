@@ -5,7 +5,7 @@ other. Repair code that accidentally reuses the same builder for two receipts.
 Done when: Each receipt gets independent mutable state and the aliasing cause is explained.
 */
 
-public class Ex99MutableTextBugHunt {
+public class Ex099MutableTextBugHunt {
     public static void main(String[] args) {
         System.out.println("===BUGGY VERSION===");
         StringBuilder shared = new StringBuilder();

@@ -5,7 +5,7 @@ represents. Do not treat the observed growth formula as a business guarantee.
 Done when: Length and capacity are not confused, and observations are recorded accurately.
 */
 
-public class Ex92BuilderCapacityObservation {
+public class Ex092BuilderCapacityObservation {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
         System.out.println("Initial length: " + sb.length());

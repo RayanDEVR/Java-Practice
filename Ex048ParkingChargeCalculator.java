@@ -5,7 +5,7 @@ justified.
 Done when: Tests include 0, 1, 2, 10 and 24 hours and respect the cap.
  */
 
-public class Ex48parkingChargeCalculator {
+public class Ex048ParkingChargeCalculator {
     public static void main(String[] args) {
         int hour = 10;
         int fee;

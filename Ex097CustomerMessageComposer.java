@@ -30,7 +30,7 @@ class Massage {
     }
 }
 
-public class Ex97CustomerMessageComposer {
+public class Ex097CustomerMessageComposer {
     public static void main(String[] args) {
         Massage customer = new Massage();
         customer.welcomMassage("Rayan");

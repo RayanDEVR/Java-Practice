@@ -22,7 +22,7 @@ class Employees {
 
 }
 
-public class Ex82parallelArraysToObjects {
+public class Ex082ParallelArraysToObjects {
     public static void main(String[] args) {
         Employees[] employee = new Employees[3];
         employee[0] = new Employees(1001, "Rayan", 1500);

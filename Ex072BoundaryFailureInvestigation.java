@@ -5,7 +5,7 @@ on the intended traversal.
 Done when: The explanation identifies the last valid index and what each original loop skipped or exceeded. 
 */
 
-public class Ex72boundaryFailureInvestigation {
+public class Ex072BoundaryFailureInvestigation {
     public static void main(String[] args) {
         int[] values = { 10, 20, 30, 40, 50 };
 

@@ -5,7 +5,7 @@ transaction reference. Choose a primitive type for each and comment why.
 Done when: The program compiles and each type choice matches the value’s range and meaning.
 */
 
-public class Ex11BusinessVariableInventory {
+public class Ex011BusinessVariableInventory {
     public static void main(String[] args) {
         long orderID = 113_7489201_8392041l;
         int quantity = 1500;

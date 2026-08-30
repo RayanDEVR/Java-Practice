@@ -5,13 +5,13 @@ intentionally invalid values, observe the compiler errors, then restore them.
 Done when: All eight primitive types are represented and at least three range/type errors are documented.
 */
 
-public class Ex12primitiveTypeShowcase {
+public class Ex012primitiveTypeShowcase {
     public static void main(String[] args) {
-        byte b= 200;
-        short s= 40000; //wrong, short's range: -128 - 127
+        byte b= 20;
+        short s= 4000; //wrong, short's range: -128 - 127
         int i= 12000;
         long l= 9000000; //wrong, long value works with 'l'; correct: 9000000l
-        float f= 3.12; //need 'f' to specify float type; correct: 3.12f
+        float f= 3.12f; //need 'f' to specify float type; wrong version: 3.12
         double d= 4.23;
         char c= 'A';
         boolean flag= true;

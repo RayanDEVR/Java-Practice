@@ -5,7 +5,7 @@ mismatched braces. List every compiler-facing defect before changing it.
 Done when: The repaired program compiles, and each fix is connected to a Java rule.
 */
 
-public class Ex03app
+public class Ex003app
 // {                                              wrong
 //     Public Static Void Main(String args)
 //     {

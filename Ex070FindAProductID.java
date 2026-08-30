@@ -5,7 +5,7 @@ acceptable practice here but not the main focus of the workbook.
 Done when: First, middle, last and absent IDs are tested. 
 */
 
-public class Ex70findAProductID {
+public class Ex070FindAProductID {
     public static void main(String[] args) {
         int[] productIDs = { 1001, 1002, 1003, 1004, 1005 };
         int productID = 1003;

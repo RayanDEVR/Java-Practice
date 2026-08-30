@@ -4,7 +4,7 @@ Use nested loops to print rows A-D and seats 1-6 as labels such as A1. Do not st
 Done when: All 24 unique seat labels appear in row-major order.
 */
 
-public class Ex42cinemaSeatMap {
+public class Ex042CinemaSeatMap {
     public static void main(String[] args) {
         for (char rows = 'A'; rows <= 'D'; rows++) {
             for (int seat = 1; seat <= 6; seat++)

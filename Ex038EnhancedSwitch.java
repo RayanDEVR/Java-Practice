@@ -5,7 +5,7 @@ Compare its structure with a traditional switch.
 Done when: The switch produces a value without duplicated assignment code and all options are tested.
  */
 
-public class Ex38enhancedSwitch
+public class Ex038EnhancedSwitch
 {
     public static void main(String[] args) {
         String Plan = "Premium";

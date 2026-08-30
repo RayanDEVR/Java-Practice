@@ -5,7 +5,7 @@ units once a threshold is crossed.
 Done when: Examples around every band boundary show progressive calculation.
  */
 
-public class Ex49utilityBillingBands {
+public class Ex049UtilityBillingBands {
     public static void main(String[] args) {
         double totalUnit = 100000;
         double bill=0;

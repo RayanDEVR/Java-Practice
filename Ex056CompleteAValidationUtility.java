@@ -19,7 +19,7 @@ class validationUtil {
     }
 }
 
-public class Ex56completeAValidationUtility {
+public class Ex056CompleteAValidationUtility {
     public static void main(String[] args) {
 
         validationUtil obj = new validationUtil();

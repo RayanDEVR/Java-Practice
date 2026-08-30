@@ -5,7 +5,7 @@ invalid access and prints a useful message.
 Done when: Negative and length-sized indexes no longer crash the program. 
 */
 
-public class Ex71controlledArrayUpdate {
+public class Ex071ControlledArrayUpdate {
     public static void main(String[] args) {
         int[] stocks = { 10, 20, 30, 40, 50 };
 

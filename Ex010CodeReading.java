@@ -11,7 +11,7 @@ class Student {
    }
 }
 
-public class Ex10CodeReading {
+public class Ex010CodeReading {
     public static void main(String[] args) {
         Student s = new Student();
         s.show("Rayan", 10);

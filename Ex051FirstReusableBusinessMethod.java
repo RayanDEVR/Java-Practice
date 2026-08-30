@@ -11,7 +11,7 @@ class SubtotalCalculator {
     }
 }
 
-public class Ex51firstReusableBusinessMethod {
+public class Ex051FirstReusableBusinessMethod {
     public static void main(String[] args) {
         int quantity = 30;
         double unitPrice = 120;

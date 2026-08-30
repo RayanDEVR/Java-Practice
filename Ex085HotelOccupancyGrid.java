@@ -34,7 +34,7 @@ class Hotel {
 }
 
 
-public class Ex85hotelOccupancyGrid {
+public class Ex085HotelOccupancyGrid {
     public static void main(String[] args) {
         boolean[][] room = new boolean[4][5];
         room[0][0] = true;

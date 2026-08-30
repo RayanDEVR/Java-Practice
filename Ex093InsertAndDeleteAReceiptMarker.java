@@ -5,7 +5,7 @@ character with deleteCharAt.
 Done when: Indexes are validated against the current sequence and final text is correct.
 */
 
-public class Ex93InsertAndDeleteAReceiptMarker {
+public class Ex093InsertAndDeleteAReceiptMarker {
     public static void main(String[] args) {
         StringBuilder receipt = new StringBuilder("Order #1034  Confirmed");
         System.out.println("Before delete: " + receipt);        //Order #1034X Confirmed

@@ -24,7 +24,7 @@ class Calculate {
         
 }
 
-public class Ex53invoiceMethodPipeline {
+public class Ex053InvoiceMethodPipeline {
     public static void main(String[] args) {
         Calculate bill = new Calculate();        
         double subtotal = bill.calculateSubtotal(1200, 1500);

@@ -5,7 +5,7 @@ attempts.
 Done when: The valid value and invalid-attempt count are correct for multiple sequences.
  */
 
-public class Ex46rangeValidationLoop {
+public class Ex046RangeValidationLoop {
     public static void main(String[] args) {
         int[] ages = { 12, 11, 26, 9, 13, 16, 20 };
         int invalid = 1;

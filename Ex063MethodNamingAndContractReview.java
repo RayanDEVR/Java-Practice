@@ -35,7 +35,7 @@ class clearMethod {
     }
 }
 
-public class Ex63methodNamingAndContractReview {
+public class Ex063MethodNamingAndContractReview {
     public static void main(String[] args) {
         
     }

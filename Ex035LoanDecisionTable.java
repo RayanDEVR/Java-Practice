@@ -5,7 +5,7 @@ Manual Review or Rejected.
 Done when: The implementation matches at least eight table rows, including borderline cases.
  */
 
-public class Ex35loanDecisionTable {
+public class Ex035LoanDecisionTable {
     public static void main(String[] args) {
         double income = 15000;
         double existingDebt = 1000;

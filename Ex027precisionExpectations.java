@@ -6,7 +6,7 @@ Done when: The student does not claim all decimal fractions are represented exac
 as a universal money rule.
  */
 
-public class Ex27precisionExpectations {
+public class Ex027precisionExpectations {
     public static void main(String[] args) {
         double a = 0.1 + 0.2;
         double b = 0.3;

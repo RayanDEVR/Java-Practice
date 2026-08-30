@@ -5,7 +5,7 @@ and correct payable total.
 Done when: The solution works for 0%, 15% and 100% discount without accidental integer division.
  */
 
-public class Ex26aShoppingCalculation {
+public class Ex026aShoppingCalculation {
     public static void main(String[] args) {
          int itemCount = 10;
          int price = 1000;
