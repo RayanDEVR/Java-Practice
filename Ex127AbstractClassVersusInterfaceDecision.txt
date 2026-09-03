@@ -1,0 +1,28 @@
+/*
+Abstract Class Versus Interface Decision   [Code Reading | Advanced]
+For payment capability, employee family, report export capability and shared account state, choose abstract 
+class or interface and justify each using state, inheritance and contract needs.
+Done when: Decisions are specific and do not claim one mechanism is universally better.
+*/
+
+
+1. Payment capability -> INTERFACE
+    Reason:	unrelated classes (Card, Wallet, Cash) need	only a pay()
+    contract; they share no common state or class hierarchy.
+
+2. Employee	family -> ABSTRACT CLASS
+    Reason:	all	employees share	real common	state (id, name, salary
+    fields)	and	behavior, so a base	class with shared fields fits.
+
+3. Report export capability	-> INTERFACE
+    Reason: exportToPdf()/exportToCsv() is a capability	that unrelated
+    classes	(Invoice, Payroll, Inventory) can each opt into.
+
+4. Shared account state	(balance, holder) -> ABSTRACT CLASS
+    Reason:	SavingsAccount/BusinessAccount genuinely share fields and
+    partial	implementation,	which only an abstract class can hold directly.
+
+
+General	rule used: abstract	class fits shared STATE	+ partial behavior
+in a real is-a hierarchy; interface	fits a pure	CONTRACT across	unrelated types.
+
