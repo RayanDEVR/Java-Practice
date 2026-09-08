@@ -1,0 +1,22 @@
+/*
+Exception Hierarchy Map   [Code Reading | Advanced]
+Draw a simplified hierarchy containing Throwable, Error, Exception, RuntimeException and examples 
+encountered in the lessons. Mark which problems application code commonly handles.
+Done when: The map distinguishes serious errors from recoverable/expected exception categories without 
+claiming every exception must be caught.
+*/
+
+Throwable
+├──	Error						(serious level problem. Not normally handled)
+│	  └── OutOfMemoryError,	StackOverflowError
+│
+└──	Exception                   (expected problems; may be handled)
+	  ├──	Checked	Exceptions  (must be declared)
+	  │				└──	IOException, InsufficientFundsException
+	  │
+      └── RuntimeException      (Unchecked - often programming issues)
+				├──	ArithmeticException
+				├──	ArrayIndexOutOfBoundsException
+				├──	NullPointerException
+				├──	ClassCastException
+				└──	IllegalArgumentException
