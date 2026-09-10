@@ -17,14 +17,14 @@ public class Ex170ThreadStateObservation {
             }
         });
 
-        System.out.println("Before start: " + task.getState());
+        System.out.println("Before start: " + task.getState()); //NEW
 
         task.start();
         Thread.sleep(200);
-        System.out.println("During activity: " + task.getState());
+        System.out.println("During activity: " + task.getState()); //TIMED_WAITING
 
         task.join();
-        System.out.println("After join: " + task.getState());
+        System.out.println("After join: " + task.getState()); //TERMINATED
     }
 }
 
