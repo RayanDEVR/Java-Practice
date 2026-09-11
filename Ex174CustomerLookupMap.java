@@ -30,10 +30,18 @@ public class Ex174CustomerLookupMap {
         System.out.println("Lookup 102: " + customers.get(102));
 
         customers.put(102, new Customer("Abdullah"));
-        System.out.println("After updated, 102: " + customers.get(102));
+        System.out.println("After update, 102: " + customers.get(102));
 
-        for (int customer : customers.keySet()) {
-            System.out.println("ID: " + customer + " - " + customers.get(customer));
+        int searchId = 999;
+        if (customers.containsKey(searchId)) {
+            System.out.println("Lookup " + searchId + ": " + customers.get(searchId));
+        }
+        else {
+            System.out.println("Customer ID: " + searchId + " not found.");
+        }
+
+        for (int customerId : customers.keySet()) {
+            System.out.println("ID: " + customerId + " - " + customers.get(customerId));
         }
     }
 }
