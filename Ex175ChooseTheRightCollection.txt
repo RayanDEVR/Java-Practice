@@ -1,0 +1,26 @@
+/*
+Choose the Right Collection   [Code Reading | Advanced]
+For order history, unique usernames, product-by-SKU lookup, sorted unique branch codes and duplicate
+preserving cart lines, choose List, HashSet, TreeSet or Map and justify.
+Done when: Every choice explicitly addresses duplicates, order and lookup key needs.
+*/
+
+1. Order history -> List (ArrayList)
+   Reason: Orders can repeat in content, and their chronological
+   insertion order matters; no uniqueness constraint is needed.
+
+2. Unique usernames -> HashSet
+   Reason: Usernames must never duplicate, and no particular display
+   order is required, so a plain hash-based Set fits.
+
+3. Product-by-SKU lookup -> Map (HashMap)
+   Reason: Fast retrieval by a key (the SKU) is the core requirement —
+   this is exactly what a Map is designed for.
+
+4. Sorted unique branch codes -> TreeSet
+   Reason: Uniqueness AND a guaranteed sorted iteration order are both
+   required, which TreeSet provides directly.
+
+5. Duplicate-preserving cart lines -> List (ArrayList)
+   Reason: A cart can legitimately contain the same product added twice
+   as separate lines, so duplicates must be preserved, ruling out any Set.
