@@ -1,3 +1,11 @@
+/*
+Invoice and Discount Engine   [Mini Project | Project]
+Model Product, InvoiceLine, CustomerType enum, DiscountPolicy functional interface and InvoiceService. 
+Calculate line totals, tier/member discounts, tax and final total; generate a StringBuilder receipt.
+Done when: At least three discount policies are interchangeable; negative quantity/price and empty invoice fail 
+safely; totals are manually reconciled.
+*/
+
 import java.util.*;
 
 enum CustomerType {
